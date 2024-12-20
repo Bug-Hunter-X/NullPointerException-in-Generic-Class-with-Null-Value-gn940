@@ -1,0 +1,2 @@
+# NullPointerException in Scala Generic Class
+This example demonstrates a common error in Scala when using null values with generic types.  A `NullPointerException` occurs at runtime because the `println` statement attempts to access a member of a null object. The solution involves handling the null case explicitly.
